@@ -33,7 +33,6 @@ std::string Client::getBorrowedMedia() const {
     return oss.str();
 }
 
-// Implémentation de la méthode getBorrowedMediaList
 std::vector<std::shared_ptr<Media>>& Client::getBorrowedMediaList() {
     return borrowedMedia;
 }
